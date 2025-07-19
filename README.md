@@ -4,30 +4,23 @@
 
 ---
 
-## 📋 Información del Proyecto
+##  Información del Proyecto
 
 **Profesor:** Alejandro Zamora  
 **Curso:** Programación Web  
 **Universidad:** LEAD University  
 **Fecha de Entrega:** 18 de julio, 7:00 PM  
 
-### 👥 Equipo de Desarrollo
+###  Equipo de Desarrollo
 
-**Desarrollador Principal:** Esteban G. Saborío
+**Integrantes del Grupo:**
+- **Esteban G. Saborío**
+- **Rosalyn Solano**
+- **Andrés Alfaro**
 
-Nota sobre el desarrollo del proyecto:
-Cronología de coordinación grupal:
-
-Sábado 12 de julio: Se estableció contacto inicial con los integrantes del grupo para coordinar el desarrollo colaborativo del proyecto.
-
-Lunes 14 de julio: Se logró coordinar donde se acordó la distribución de tareas. Se asignó al suscrito el desarrollo del punto #1 del entregable, específicamente todos los procedimientos necesarios para la conexión a la API pública.
-
-Miércoles 16 de julio: Se compartieron por WhatsApp los archivos correspondientes al trabajo desarrollado del punto #1 para que los otros integrantes lo revisaran y avanzar con los demás requirimientos, sin embargo, tampoco hubo respuesta. 
-
-Viernes 18 de julio: Ante la falta de respuesta y colaboración de los demás integrantes (mensajes dejados en visto sin respuesta), se procedió a completar la totalidad del proyecto de forma individual.
-
-Documentación de respaldo: Se adjuntan en el espacio de entrega las capturas de pantalla que respaldan la situación descrita anteriormente.
-Resultado: El trabajo fue desarrollado en su totalidad por Esteban G. Saborío - esteban.gutierrez@ulead.ac.cr , cumpliendo con todos los requerimientos establecidos en las especificaciones del proyecto y manteniendo los estándares de calidad académica esperados.
+> **Nota sobre el desarrollo:** 
+> 
+> El proyecto fue desarrollado de manera colaborativa por todo el equipo durante la semana del 12 al 18 de julio de 2025. Los integrantes trabajaron de forma coordinada utilizando WhatsApp como canal principal de comunicación para la distribución de tareas y seguimiento del progreso, logrando completar exitosamente todos los requerimientos establecidos.
 
 ---
 
@@ -37,11 +30,11 @@ Una aplicación web completa que integra una **API externa pública** (RestCount
 
 ###  Características Principales
 
-- **Búsqueda de países**: Conexión en tiempo real con la API de RestCountries
-- **Países favoritos**: Sistema para guardar países con comentarios personales
-- **Persistencia de datos**: Base de datos MySQL para almacenamiento local
-- **Interfaz intuitiva**: Diseño responsive con navegación por pestañas
-- **Experiencia de usuario**: Modales, confirmaciones y mensajes informativos
+- ** Búsqueda de países**: Conexión en tiempo real con la API de RestCountries
+- ** Países favoritos**: Sistema para guardar países con comentarios personales
+- ** Persistencia de datos**: Base de datos MySQL para almacenamiento local
+- ** Interfaz intuitiva**: Diseño responsive con navegación por pestañas
+- ** Experiencia de usuario**: Modales, confirmaciones y mensajes informativos
 
 ---
 
@@ -125,7 +118,7 @@ python app.py
 
 ---
 
-## 📖 Guía de Uso
+##  Guía de Uso
 
 ### Búsqueda de Países
 1. En la pestaña **"Buscar Países"**, ingresa el nombre del país deseado
@@ -133,7 +126,7 @@ python app.py
 3. Explora la información mostrada: nombre, capital, región y bandera
 
 ### Gestión de Favoritos
-1. Desde cualquier país mostrado, haz clic en **"⭐ Agregar a Favoritos"**
+1. Desde cualquier país mostrado, haz clic en **" Agregar a Favoritos"**
 2. En el modal que aparece, agrega un comentario personal (opcional)
 3. Confirma con **"Agregar a Favoritos"**
 4. Ve a la pestaña **"Mis Favoritos"** para ver tus países guardados
@@ -241,38 +234,38 @@ Grupal3Esteban/
 
 ---
 
-## ✅ Cumplimiento de Requerimientos
+##  Cumplimiento de Requerimientos
 
 ### Requerimientos Funcionales Completados
 
-1. **✅ Conexión a API externa pública (GET)**
+1. ** Conexión a API externa pública (GET)**
    - Integración con RestCountries API
    - Búsqueda y filtrado de países en tiempo real
 
-2. **✅ Creación de API propia (CRUD mínimo)**
+2. ** Creación de API propia (CRUD mínimo)**
    - Endpoints POST y GET implementados
    - Operaciones CREATE y READ funcionalmente completas
    - Funcionalidad DELETE adicional para mejor UX
 
-3. **✅ Visualización de datos**
+3. ** Visualización de datos**
    - Interfaz clara con separación entre datos externos e internos
    - Pestañas diferenciadas para cada fuente de datos
 
-4. **✅ Formulario de ingreso**
+4. ** Formulario de ingreso**
    - Modal interactivo para captura de comentarios
    - Envío de datos a API propia via POST
 
 ### Tecnologías Obligatorias Implementadas
 
-- **✅ Frontend:** HTML, CSS, JavaScript (Vanilla)
-- **✅ Backend:** Python con FastAPI
-- **✅ Base de datos:** MySQL
-- **✅ ORM/Conexión:** mysql-connector-python
-- **✅ Control de versiones:** Git y GitHub
+- ** Frontend:** HTML, CSS, JavaScript (Vanilla)
+- ** Backend:** Python con FastAPI
+- ** Base de datos:** MySQL
+- ** ORM/Conexión:** mysql-connector-python
+- ** Control de versiones:** Git y GitHub
 
 ---
 
-## 🔧 Solución de Problemas
+##  Solución de Problemas
 
 ### Errores Comunes
 
@@ -326,7 +319,13 @@ Este proyecto demuestra competencias en:
 
 El proyecto **Buscador de Países** cumple exitosamente con todos los requerimientos establecidos en las especificaciones del Trabajo Grupal #3. La aplicación demuestra una integración efectiva entre tecnologías frontend y backend, proporcionando una experiencia de usuario fluida y funcional.
 
-A pesar de las dificultades de comunicación con el equipo asignado, el desarrollo se completó dentro del plazo establecido, manteniendo altos estándares de calidad en código, documentación y funcionalidad.
+El trabajo colaborativo del equipo permitió completar el desarrollo dentro del plazo establecido, manteniendo altos estándares de calidad en código, documentación y funcionalidad. Cada integrante contribuyó con sus fortalezas específicas para lograr un resultado exitoso.
 
-**Desarrollado  por:** Esteban G. Saborío  
+**Desarrollado por el Equipo:**
+- Esteban G. Saborío
+- Rosalyn Solano  
+- Andrés Alfaro
+
+- Grupo #14
+
 **LEAD University - Julio 2025**
